@@ -32,8 +32,147 @@ body {
   width: 100%;
   object-fit: contain;
 }
+
 .card-img-custom {
   height: 210px;
   width: 100%;
   object-fit: contain;
+}
+
+.card-body-custom {
+  padding: 1.5rem;
+  align-self: center;
+}
+
+p {
+  letter-spacing: 0.06rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: rgba(43, 44, 45, 0.75);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.btn-custom {
+  color: rgba(0, 17, 40, 1);
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 10px;
+  padding: 0.7rem 2.5rem;
+  border: 1px solid rgba(0, 17, 40, 1);
+}
+
+.btn-custom:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid rgba(0, 17, 40, 1);
+}
+
+.img-custom {
+  width: 100%;
+  height: auto;
+}
+.contact-form-container {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.contact-form-container h2 {
+  text-align: left;
+  margin-bottom: 30px;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.form-control {
+  background-color: transparent;
+  color: #fff;
+  height: 45px;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border: 2px solid rgb(118, 118, 118);
+  border-radius: 8px;
+}
+
+.form-control::placeholder {
+  color: #939393;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+textarea.form-control {
+  padding-bottom: 8em;
+  padding-top: 1em;
+  overflow: hidden;
+}
+
+.contact-form-container .btn {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 0 3rem;
+  height: 45px;
+  border-radius: 8px;
+}
+
+.contact-form-container .btn:hover {
+  border: 2px solid #fff;
+}
+
+.sub-to-emails {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-to-emails input {
+  border: none;
+  justify-self: start;
+}
+
+.sub-to-emails input:hover {
+  border: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .contact-form-container {
+    width: 100%;
+  }
+
+  .contact-form-container h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-custom {
+    height: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-custom {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .feature-collection .row .col-lg-3 {
+    max-width: 20%;
+  }
 }
