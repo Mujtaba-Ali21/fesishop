@@ -1,0 +1,41 @@
+.cartContainer {
+  margin-top: 20px;
+}
+
+.cartItem {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #000;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-button {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.quantity-container input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.order-summary {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}

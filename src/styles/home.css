@@ -3,11 +3,6 @@ body {
   color: #fff;
 }
 
-.custom-navbar {
-  background-color: #000000;
-  color: #fff;
-}
-
 .announcement-bar {
   background-color: #fff;
   color: #000000;
@@ -77,6 +72,20 @@ h2 {
   width: 100%;
   height: auto;
 }
+
+.mainContainer {
+  min-height: 100vh;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+.link:hover .card-title {
+  text-decoration: underline;
+}
+
 .contact-form-container {
   background-color: #000;
   color: #fff;
@@ -146,6 +155,16 @@ textarea.form-control {
 
 .sub-to-emails input:hover {
   border: none;
+}
+
+.soldOutContainer {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  right: 5px;
+  border-radius: 5px;
 }
 
 /* Responsive adjustments */
