@@ -32,8 +32,8 @@ const handleAddToCart = (product) => {
 
 
   const handleProceedToPayment = () => {
-    const phoneNumber = "3152369281";
-    const message = `Hello, I am interested in buying this product from your webstore Fesi Shop: \nName: ${product.productTitle} \nPrice: ${product.productPrice} \nID: ${product.id}`;
+    const phoneNumber = "3447347737";
+    const message = `Hello, I am interested in buying this product from your webstore Fesi Shop: \n\nName: ${product.productTitle} \nPrice: ${product.productPrice} \nID: ${product.id}`;
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://api.whatsapp.com/send/?phone=%2B92${phoneNumber}&text=${encodedMessage}`;
     window.open(whatsappUrl, "_blank");
