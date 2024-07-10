@@ -56,7 +56,7 @@ function Footer() {
   };
 
   return (
-    <div className="container contact-form-container">
+    <div className="container contact-form-container px-5">
       <h2>Contact Us</h2>
       {alert.show && (
         <div className={`alert alert-${alert.type} fade show`} role="alert">

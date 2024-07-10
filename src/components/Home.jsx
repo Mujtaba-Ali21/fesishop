@@ -88,7 +88,7 @@ function Home() {
       <div className="announcement-bar">
         بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
       </div>
-    
+
       <NavBar />
 
       <div
@@ -151,9 +151,9 @@ function Home() {
 
       <div className="new-arrivals container text-center mt-2 mb-3">
         <h2>New Arrival</h2>
-        <div className="row justify-content-center mt-4">
+        <div className="row justify-content-center gx-2 mt-4">
           {newArrivals.map((item) => (
-            <div className="col-sm-6 col-md-4 col-lg-3 mb-4" key={item.id}>
+            <div className="col-6 col-md-4 col-lg-3 mb-2" key={item.id}>
               <div className="card border-0 p-2">
                 <img
                   src={item.productImage}
@@ -174,9 +174,9 @@ function Home() {
 
       <div className="feature-collection container mt-2 mb-3">
         <h2 className="">Feature Collection</h2>
-        <div className="row justify-content-center mt-4">
+        <div className="row justify-content-center gx-2 mt-4">
           {featureCollection.map((item) => (
-            <div className="col-sm-6 col-md-4 col-lg-3 mb-4" key={item.id}>
+            <div className="col-6 col-md-4 col-lg-3 mb-4" key={item.id}>
               <div className="card border-0 p-2">
                 <img
                   src={item.productImage}

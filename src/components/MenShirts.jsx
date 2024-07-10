@@ -57,9 +57,9 @@ function MenShirts() {
             </select>
           </div>
           <p className="text-light text-end">{sortedData.length} Products</p>
-          <div className="row justify-content-center mt-2">
+          <div className="row justify-content-center gx-2 mt-2">
             {sortedData.map((item) => (
-              <div className="col-sm-6 col-md-4 col-lg-3 mb-4" key={item.id}>
+              <div className="col-6 col-md-4 col-lg-3 mb-4" key={item.id}>
                 <div className="card border-0 p-2">
                   <Link
                     to={`/product/${item.id}`}

@@ -89,7 +89,6 @@ h2 {
 .contact-form-container {
   background-color: #000;
   color: #fff;
-  padding: 20px;
   border-radius: 5px;
   margin: 0 auto;
 }
@@ -187,6 +186,10 @@ textarea.form-control {
 @media (min-width: 992px) {
   .img-custom {
     width: 50%;
+  }
+
+  .contact-form-container {
+    width: 950px; 
   }
 }
 
