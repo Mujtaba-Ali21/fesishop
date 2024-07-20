@@ -14,6 +14,7 @@ import Cart from "./components/Cart";
 import About from "./components/About";
 
 import "./styles/app.css";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<Navigate to={"/home"} replace />} />
         </Routes>
+        <Contact />
       </Router>
     </div>
   );
